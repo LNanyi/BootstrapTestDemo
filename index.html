@@ -7,81 +7,137 @@
     <title>BootstrapBasicTest</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="..\..\BootstrapTest\bootstrap-3.3.7-dist\css\bootstrap.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-  <body>
-  <h2>统一建模语言理论测试</h2>
-考试科目：统一建模语言&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间：100分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;得分：100<br/>
-<label for="">班级：</label> <input class="input-group-sm" value="1班"><label for="">学号：</label>&nbsp;&nbsp;<input class="input-group-sm" value="001" ><label for="">姓名:</label><input class="input-group-sm" value="王小闹">
-<h3 class="h3">一、填空题<small>（每空5分，共20分）</small></h3>
-<form>
-	<div class="form-group container-fluid">
-		<label for="">1、UML的中文全称是：</label>
-		<input class="input-group-sm" value="统一建模语言">
+<body>
+	<h2>统一建模语言理论测试</h2>
+	考试科目：统一建模语言&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间：100分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;得分：100
+	<br/>
+	<label for="">班级：</label>
+	<input class="input-group-sm" value="1班">
+	<label for="">学号：</label>&nbsp;&nbsp;
+	<input class="input-group-sm" value="001">
+	<label for="">姓名:</label>
+	<input class="input-group-sm" value="王小闹">
+	<h3 class="h3">一、填空题
+		<small>（每空5分，共20分）</small>
+	</h3>
+	<form>
+		<div class="form-group container-fluid">
+			<label for="">1、UML的中文全称是：</label>
+			<input class="input-group-sm" value="统一建模语言">
+			<br/>
+			<label for="">2、对象最突出的特征是：</label>
+			<input class="input-group-sm" value="封装性">&nbsp;
+			<input class="input-group-sm" value="继承性">&nbsp;
+			<input class="input-group-sm" value="多态性">
+		</div>
+	</form>
+	<h3>二、选择题
+		<small>（每题10分，共20分）</small>
+	</h3>
+	<div class="container-fluid">
+		<label for="">1、UML与软件工程的关系是：</label>
 		<br/>
-		<label for="">2、对象最突出的特征是：</label>
-		<input class="input-group-sm" value="封装性">&nbsp;<input class="input-group-sm" value="继承性">&nbsp;<input class="input-group-sm" value="多态性">
-	</div>
-</form> 
-<h3>二、选择题<small>（每题10分，共20分）</small></h3>
-	<div class="container-fluid">
-	<label for="">1、UML与软件工程的关系是：</label><br/>
 		<ul class="list-group">
-			<li class="list-group-item"><input type="radio"/><label for="">(A)UML就是软件工程</label></li>
-			<li class="list-group-item"><input type="radio" checked="checked"/><label for="">(B)UML参与到软件工程中软件开发过程的几个阶段</label></li>
-			<li class="list-group-item"><input type="radio"/><label for="">(C)UML与软件工程无关</label></li>
-			<li class="list-group-item"><input type="radio"/><label for="">(D)UML是软件工程的一部分</label></li>
+			<li class="list-group-item">
+				<input type="radio" />
+				<label for="">(A)UML就是软件工程</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" checked="checked" />
+				<label for="">(B)UML参与到软件工程中软件开发过程的几个阶段</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" />
+				<label for="">(C)UML与软件工程无关</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" />
+				<label for="">(D)UML是软件工程的一部分</label>
+			</li>
 		</ul>
 	</div>
 	<div class="container-fluid">
-		<label for="">2、Java语言支持：</label><br/>
+		<label for="">2、Java语言支持：</label>
+		<br/>
 		<ul class="list-group">
-			<li class="list-group-item"><input type="radio" id="o" checked="checked"/><label for="o">(A)单继承</label></li>
-			<li class="list-group-item"><input type="radio" id="p"/><label for="p">(B)多继承</label></li>
-			<li class="list-group-item"><input type="radio" id="k"/><label for="k">(C)单继承和多继承都支持</label></li>
-			<li class="list-group-item"><input type="radio" id="l"/><label for="l">(D)单继承和多继承都不支持</label></li>
+			<li class="list-group-item">
+				<input type="radio" id="o" checked="checked" />
+				<label for="o">(A)单继承</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" id="p" />
+				<label for="p">(B)多继承</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" id="k" />
+				<label for="k">(C)单继承和多继承都支持</label>
+			</li>
+			<li class="list-group-item">
+				<input type="radio" id="l" />
+				<label for="l">(D)单继承和多继承都不支持</label>
+			</li>
 		</ul>
 	</div>
-<h3>三、多选题<small>（每题10分，共20分）</small></h3>
-<div class="container-fluid">
-	<label for="">1、用例的粒度分为以下哪三种：</label><br/>
+	<h3>三、多选题
+		<small>（每题10分，共20分）</small>
+	</h3>
 	<div class="container-fluid">
-		<label class="" for=""><input type="checkbox" checked/>(A)概述级</label><br/>
-		<label for=""><input type="checkbox"  checked/>(B)需求级</label><br/>
-		<label for=""><input type="checkbox"/>(C)用户目标级</label><br/>
-		<label for=""><input type="checkbox" checked/>(D)子功能级</label>
+		<label for="">1、用例的粒度分为以下哪三种：</label>
+		<br/>
+		<div class="container-fluid">
+			<label class="" for="">
+				<input type="checkbox" checked/>(A)概述级</label>
+			<br/>
+			<label for="">
+				<input type="checkbox" checked/>(B)需求级</label>
+			<br/>
+			<label for="">
+				<input type="checkbox" />(C)用户目标级</label>
+			<br/>
+			<label for="">
+				<input type="checkbox" checked/>(D)子功能级</label>
+		</div>
+		<label for="">2、类图有以下哪三种组成：</label>
+		<br/>
+		<div class="container-fluid">
+			<input type="checkbox" checked/>
+			<label for="">(A)名称（Name）</label>
+			<br/>
+			<input type="checkbox" checked/>
+			<label for="">(B)属性（Attribute）</label>
+			<br/>
+			<input type="checkbox" checked/>
+			<label for="">(C)操作（Operate）</label>
+			<br/>
+			<input type="checkbox" />
+			<label for="">(D)方法（Function）</label>
+		</div>
 	</div>
-	<label for="">2、类图有以下哪三种组成：</label><br/>
+	<h3>四、判断题
+		<small>（每题10分，共20分）</small>
+	</h3>
 	<div class="container-fluid">
-		<input type="checkbox" checked/><label for="">(A)名称（Name）</label><br/>
-		<input type="checkbox" checked/><label for="">(B)属性（Attribute）</label><br/>
-		<input type="checkbox" checked/><label for="">(C)操作（Operate）</label><br/>
-		<input type="checkbox"/><label for="">(D)方法（Function）</label>
+		1.用例图只适用于和客户交流和沟通的，用于确定需求。
+		<input type="radio" />✔
+		<input type="radio" checked>×
+		<br/> 2.在状态图中终止状态在一个状态图中允许有任意多个。
+		<input type="radio" checked>✔
+		<input type="radio" />×
+		<br/>
 	</div>
-</div>
-<h3>四、判断题<small>（每题10分，共20分）</small></h3>
-<div class="container-fluid">
-	1.用例图只适用于和客户交流和沟通的，用于确定需求。<input type="radio"/>✔<input type="radio" checked>×<br/>
-	2.在状态图中终止状态在一个状态图中允许有任意多个。<input type="radio" checked>✔<input type="radio"/>×<br/>
-</div>
-<h3>五、简答题<small>（每题20分，共20分）</small></h3>
-<div class="container-fluid">
-	<label for="">1.简述什么是模型以及模型的表现形式？</label><br/>
-	<textarea style="width: 450px;height: 80px;">
-	模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea><br/>
-	<button class="btn btn-default btn-sm">计算分数</button>
-</div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<h3>五、简答题
+		<small>（每题20分，共20分）</small>
+	</h3>
+	<div class="container-fluid">
+		<label for="">1.简述什么是模型以及模型的表现形式？</label>
+		<br/>
+		<textarea style="width: 450px;height: 80px;">
+	模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+		<br/>
+		<button class="btn btn-default btn-sm">计算分数</button>
+	</div>
+</body>
 </html>
